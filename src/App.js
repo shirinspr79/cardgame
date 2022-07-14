@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import React, { useState, useEffect } from 'react'
 import './App.css'
 import SingleCard from './components/SingleCard'
 
@@ -11,7 +11,7 @@ const cardImages = [
   { "src": "/img/sword-1.png", matched: false },
 ]
 
-function App() {
+ export function App() {
   const [cards, setCards] = useState([])
   const [turns, setTurns] = useState(0)
   const [choiceOne, setChoiceOne] = useState(null)
@@ -73,6 +73,8 @@ function App() {
   }, [])
 
   return (
+    <>
+    
     <div className="App">
       <h1>Magic Match</h1>
       <button onClick={shuffleCards}>New Game</button>
@@ -91,7 +93,8 @@ function App() {
 
       <p>Turns: {turns}</p>
     </div>
-  );
+    </>
+  )
 }
 
-export default App
+
