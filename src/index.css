@@ -7,14 +7,6 @@ body {
   font-size: 1.5em;
   text-align: center;
   background: #1b1523;
-  color: #fff;
+  color: rgb(246, 246, 248);
 }
 
-nav {
-  background-color: aquamarine;
-  padding: 16px 32px;
-}
-
-nav a {
-   margin-right: 16px;
-}
