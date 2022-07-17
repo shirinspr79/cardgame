@@ -18,7 +18,6 @@ const cardImages = [
   const [choiceTwo, setChoiceTwo] = useState(null)
   const [disabled, setDisabled] = useState(false)
 
-  // shuffle cards for new game
   const shuffleCards = () => {
     const shuffledCards = [...cardImages, ...cardImages]
       .sort(() => Math.random() - 0.5)
@@ -30,13 +29,11 @@ const cardImages = [
     setTurns(0)
   }
 
-  // handle a choice
   const handleChoice = (card) => {
     console.log(card)
     choiceOne ? setChoiceTwo(card) : setChoiceOne(card)
   }
 
-  // compare 2 selected cards
   useEffect(() => {
     if (choiceOne && choiceTwo) {
       setDisabled(true)
@@ -59,7 +56,6 @@ const cardImages = [
     }
   }, [choiceOne, choiceTwo])
 
-  // reset choices & increase turn
   const resetTurn = () => {
     setChoiceOne(null)
     setChoiceTwo(null)
@@ -67,7 +63,6 @@ const cardImages = [
     setDisabled(false)
   }
 
-  // start new game automagically
   useEffect(() => {
     shuffleCards()
   }, [])
