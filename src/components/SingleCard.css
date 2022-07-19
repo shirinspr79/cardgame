@@ -4,8 +4,8 @@
 .card img {
   width: 100%;
   display: block;
-  border: 2px solid #fff;
   border-radius: 6px;
+  color: rgb(224, 110, 157);
 }
 
 /* front of card - the picture */

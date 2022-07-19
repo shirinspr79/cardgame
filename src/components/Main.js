@@ -13,7 +13,7 @@ export default function Main() {
               style={{ marginLeft: "8%", marginTop: "20%" }}
               className="heading"
             >
-              Hi There!{" "}
+              Hi There!{""}
               <span className="wave" role="img" aria-labelledby="wave">
                 👋🏻
               </span>
@@ -28,7 +28,7 @@ export default function Main() {
           </Col>
           <Col>
             <img
-              className="about"
+              className="homeimg"
               src="/cardgame/img/about.png"
               alt="about img"
             />

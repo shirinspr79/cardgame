@@ -7,8 +7,7 @@ function Type() {
       options={{
         strings: [
           "Project collaboration",
-          "Deep Learning",
-          "Full time cooperation",
+          "Full-time cooperation",
           "Part-time cooperation",
         ],
         autoStart: true,

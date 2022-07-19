@@ -22,3 +22,71 @@ button:hover {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 20px;
 }
+
+.purple {
+  color:rgb(103, 21, 180);
+}
+.quote-card-view {
+  border: none !important;
+  color: rgb(0, 0, 0) !important;
+  background-color: transparent !important;
+}
+.Bold {
+ text-align: justify;
+}
+.about-activity
+{
+  fontStyle:"infinite";
+  color:rgb(9, 10, 98);
+}
+
+.cooperation-img{
+  width:200px;
+  height: 150px;
+  position: relative;
+  animation: mymove 6s infinite;
+  animation-delay: 2s;
+  bottom: 1%;
+}
+
+@keyframes mymove {
+  from {left: 30px;}
+  to {left: 280px;}
+}
+
+
+.quote-card-view {
+  position: relative;
+  padding-top: 80px;
+ 
+}
+
+.connect-me {
+  padding-top: 10px;
+}
+
+.whatsapp-icon {
+  padding-top: 10px;
+  padding-bottom: 80px;
+}
+
+.git-hub {
+
+  padding-top: 10px;
+  padding-bottom: 80px;
+}
+
+ul#event-list li {
+  padding: 20px;
+  align-items: center;
+  display: inline;
+  padding-top: 0px;
+}
+
+.girl {
+  width: auto;
+  height:600px;
+  padding-top: 50px;
+  align-items: center;
+}
+
