@@ -29,7 +29,7 @@ export default function Main() {
           <Col>
             <img
               className="homeimg"
-              src="/cardgame/img/about.png"
+              src="main/img/about.png"
               alt="about img"
             />
           </Col>

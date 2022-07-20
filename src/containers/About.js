@@ -56,14 +56,14 @@ export const About = () => {
           </Card>
           <img
             className="cooperation-img"
-            src="/cardgame/img/cooperation.png"
+            src="main/img/cooperation.png"
             alt="cooperation"
           ></img>
         </Col>
 
         <Col>
           <Row>
-            <img className="girl" src="/cardgame/img/girl.png" alt="girl"></img>
+            <img className="girl" src="main/img/girl.png" alt="girl"></img>
           </Row>
 
           <Row>
