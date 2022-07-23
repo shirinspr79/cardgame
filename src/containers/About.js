@@ -16,6 +16,7 @@ export const About = () => {
         <Col>
           <Card className="quote-card-view">
             <Card.Body>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"></meta>
               <h1 style={{ fontSize: "1.8em", paddingBottom: "20px" }}>
                 LET ME INTRODUCE<strong className="purple"> MYSELF👩🏻‍💻 </strong>
               </h1>
@@ -56,14 +57,14 @@ export const About = () => {
           </Card>
           <img
             className="cooperation-img"
-            src="main/img/cooperation.png"
+            src="/cardgame/img/cooperation.png"
             alt="cooperation"
           ></img>
         </Col>
 
         <Col>
           <Row>
-            <img className="girl" src="main/img/girl.png" alt="girl"></img>
+            <img className="girl" src="/cardgame/img/girl.png" alt="girl"></img>
           </Row>
 
           <Row>

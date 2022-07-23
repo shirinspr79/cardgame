@@ -6,6 +6,7 @@ import { Container, Row, Col } from "react-bootstrap";
 export default function Main() {
   return (
     <>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"></meta>
       <Container className="home-content">
         <Row>
           <Col>
@@ -29,7 +30,7 @@ export default function Main() {
           <Col>
             <img
               className="homeimg"
-              src="main/img/about.png"
+              src="/cardgame/img/about.png"
               alt="about img"
             />
           </Col>

@@ -10,6 +10,7 @@ export default function App(){
    <>
       <CustomNavbar />
       <Routes> 
+        <Route path='/' element={<Main />} />
         <Route path='/main' element={<Main />} />
         <Route path='/game' element={<Game />} />
         <Route path='/about' element={<About />} />
