@@ -3,6 +3,10 @@ import { useNavigate } from "react-router-dom";
 import { useState } from "react";
 import { Button, Container, Nav } from "react-bootstrap";
 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  {" "}
+</meta>;
+
 export function CustomNavbar() {
   const [basicActive, setActive] = useState("main");
   const navigate = useNavigate();
@@ -53,4 +57,3 @@ export function CustomNavbar() {
     </Container>
   );
 }
-

@@ -3,12 +3,15 @@ import { Container, Row, Col } from "react-bootstrap";
 import Card from "react-bootstrap/Card";
 import { ImPointRight } from "react-icons/im";
 import "./Game.css";
+
 import {
   AiFillGithub,
   AiOutlineWhatsApp,
   AiFillInstagram,
 } from "react-icons/ai";
-
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  {" "}
+</meta>;
 export const About = () => {
   return (
     <Container>
@@ -16,8 +19,7 @@ export const About = () => {
         <Col>
           <Card className="quote-card-view">
             <Card.Body>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"></meta>
-              <h1 style={{ fontSize: "1.8em", paddingBottom: "20px" }}>
+              <h1 style={{ fontSize: "1.6em", paddingBottom: "20px" }}>
                 LET ME INTRODUCE<strong className="purple"> MYSELF👩🏻‍💻 </strong>
               </h1>
               <blockquote>
@@ -31,23 +33,35 @@ export const About = () => {
                   <p>I made this site with love to connect with you.</p>
                   Apart from coding, some other activities that I love to do:
                 </p>
+
                 <ul>
-                  <li className="about-activity">
-                    <ImPointRight /> Surf in the internet
-                  </li>
-                  <li className="about-activity">
-                    <ImPointRight /> Reading Books
-                  </li>
-                  <li className="about-activity">
-                    <ImPointRight /> Exercising
-                  </li>
-                  <li className="about-activity">
-                    <ImPointRight /> Playing Games
-                  </li>
-                  <li className="about-activity">
-                    <ImPointRight /> Travelling
-                  </li>
+                  <Row>
+                    <li className="about-activity">
+                      <ImPointRight /> Surf in the internet
+                    </li>
+                  </Row>
+                  <Row>
+                    <li className="about-activity">
+                      <ImPointRight /> Reading Books
+                    </li>
+                  </Row>
+                  <Row>
+                    <li className="about-activity">
+                      <ImPointRight /> Exercising
+                    </li>
+                  </Row>
+                  <Row>
+                    <li className="about-activity">
+                      <ImPointRight /> Playing Games
+                    </li>
+                  </Row>
+                  <Row>
+                    <li className="about-activity">
+                      <ImPointRight /> Travelling
+                    </li>
+                  </Row>
                 </ul>
+
                 <br />
                 <p style={{ fontStyle: "italic" }}>
                   <h4> "Hopefully succesfull and long cooperation"</h4>{" "}
@@ -55,11 +69,13 @@ export const About = () => {
               </blockquote>
             </Card.Body>
           </Card>
-          <img
-            className="cooperation-img"
-            src="/cardgame/img/cooperation.png"
-            alt="cooperation"
-          ></img>
+         
+            <img
+              className="cooperation-img"
+              src="/cardgame/img/cooperation.png"
+              alt="cooperation"
+            ></img>
+          
         </Col>
 
         <Col>
@@ -118,7 +134,6 @@ export const About = () => {
             </ul>
           </Row>
         </Col>
-  
       </Row>
     </Container>
   );

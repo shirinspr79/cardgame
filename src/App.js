@@ -4,10 +4,15 @@ import { Game } from './containers/Game';
 import { About } from './containers/About';
 import { CustomNavbar } from './components/Navbar';
 
- 
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1"> </meta>
+
 export default function App(){
+  
   return(
    <>
+   
       <CustomNavbar />
       <Routes> 
         <Route path='/' element={<Main />} />
