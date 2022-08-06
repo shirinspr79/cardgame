@@ -34,33 +34,14 @@ export const About = () => {
                   Apart from coding, some other activities that I love to do:
                 </p>
 
-                <ul>
-                  <Row>
-                    <li className="about-activity">
-                      <ImPointRight /> Surf in the internet
-                    </li>
-                  </Row>
-                  <Row>
-                    <li className="about-activity">
-                      <ImPointRight /> Reading Books
-                    </li>
-                  </Row>
-                  <Row>
-                    <li className="about-activity">
-                      <ImPointRight /> Exercising
-                    </li>
-                  </Row>
-                  <Row>
-                    <li className="about-activity">
-                      <ImPointRight /> Playing Games
-                    </li>
-                  </Row>
-                  <Row>
-                    <li className="about-activity">
-                      <ImPointRight /> Travelling
-                    </li>
-                  </Row>
-                </ul>
+               
+                  <p className="about-activity">
+                    <ImPointRight /> Surf in the internet  <br />
+                    <ImPointRight /> Reading Books <br />
+                    <ImPointRight /> Exercising <br />
+                    <ImPointRight /> Playing Games <br />
+                    <ImPointRight /> Travelling <br />
+                 </p>
 
                 <br />
                 <p style={{ fontStyle: "italic" }}>
@@ -69,13 +50,12 @@ export const About = () => {
               </blockquote>
             </Card.Body>
           </Card>
-         
-            <img
-              className="cooperation-img"
-              src="/cardgame/img/cooperation.png"
-              alt="cooperation"
-            ></img>
-          
+
+          <img
+            className="cooperation-img"
+            src="/cardgame/img/cooperation.png"
+            alt="cooperation"
+          ></img>
         </Col>
 
         <Col>
